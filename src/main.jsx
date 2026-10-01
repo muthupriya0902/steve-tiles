@@ -17,9 +17,13 @@ function App() {
         <a href="https://www.instagram.com/steve_tiles_studio?stkn=MW95cGM0aW41bnh1NA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
           <img src="/assets/social-icons/instagram-logo.png" alt="" />
         </a>
-        <img src="/assets/social-icons/youtube-logo.png" alt="YouTube" />
+        <a href="https://youtube.com/@stevetilesofficial?si=WmAwCAEdN7YphqsP" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <img src="/assets/social-icons/youtube-logo.png" alt="" />
+        </a>
         <img src="/assets/social-icons/linkedin-logo.png" alt="LinkedIn" />
-        <img src="/assets/social-icons/google-business-logo.png" alt="Google Business Profile" />
+        <a href="https://share.google/1RJ1hvdiZDrr29H6Q" target="_blank" rel="noopener noreferrer" aria-label="Google Business Profile">
+          <img src="/assets/social-icons/google-business-logo.png" alt="" />
+        </a>
       </div>
       <section className="hero-copy" aria-label="Steve Tiles Studio introduction">
         <h1>
@@ -58,7 +62,7 @@ function App() {
       />
       <section className="contact-panel" aria-label="Steve Tiles Studio contact information">
         <a
-          className="contact-item"
+          className="contact-item contact-item-showroom"
           href="https://maps.app.goo.gl/xbdZhWY5TxaCsX497?g_st=iw"
           target="_blank"
           rel="noopener noreferrer"
@@ -88,7 +92,7 @@ function App() {
             </p>
           </div>
         </a>
-        <a className="contact-item" href="tel:+916360083907">
+        <a className="contact-item contact-item-phone" href="tel:+916360083907">
           <span className="contact-icon-wrap">
             <img src="/assets/contact-icons/phone-icon.png.png" alt="" aria-hidden="true" />
           </span>
@@ -97,7 +101,7 @@ function App() {
             <p className="contact-value">+91 63600 83907</p>
           </div>
         </a>
-        <a className="contact-item" href="mailto:stevetilesstudio@gmail.com">
+        <a className="contact-item contact-item-email" href="mailto:stevetilesstudio@gmail.com">
           <span className="contact-icon-wrap">
             <img src="/assets/contact-icons/mail-icon.png.png" alt="" aria-hidden="true" />
           </span>
@@ -112,8 +116,9 @@ function App() {
               </span>
             </p>
           </div>
+          <span className="contact-mobile-only">EMAIL</span>
         </a>
-        <a className="contact-item" href="https://stevetilesstudio.com/" target="_blank" rel="noopener noreferrer">
+        <a className="contact-item contact-item-online" href="https://stevetilesstudio.com/" target="_blank" rel="noopener noreferrer">
           <span className="contact-icon-wrap">
             <img src="/assets/contact-icons/web-icon.png.png" alt="" aria-hidden="true" />
           </span>
@@ -121,6 +126,7 @@ function App() {
             <h2 className="contact-label">ONLINE</h2>
             <p className="contact-value">stevetilesstudio.com</p>
           </div>
+          <span className="contact-mobile-only">WEBSITE</span>
         </a>
       </section>
     </main>
