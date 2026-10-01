@@ -125,18 +125,10 @@ body,
     background:
       radial-gradient(
         ellipse 50% 50% at center,
-        rgba(255, 255, 255, 0.52) 0%,
-        rgba(255, 248, 237, 0.38) 24%,
-        rgba(255, 214, 177, 0.52) 36%,
-        rgba(255, 204, 160, 0.16) 72%,
-        rgba(255, 204, 160, 0) 100%
-      ),
-      radial-gradient(
-        ellipse 50% 50% at center,
-        rgba(255, 255, 255, 0.52) 0%,
-        rgba(255, 248, 237, 0.38) 24%,
-        rgba(255, 214, 177, 0.52) 36%,
-        rgba(255, 204, 160, 0.16) 72%,
+        rgba(255, 255, 255, 0.36) 0%,
+        rgba(255, 248, 237, 0.28) 24%,
+        rgba(255, 214, 177, 0.4) 36%,
+        rgba(255, 204, 160, 0.12) 72%,
         rgba(255, 204, 160, 0) 100%
       );
     pointer-events: none;
@@ -407,12 +399,30 @@ body,
   }
 
   .hero-copy h1 {
+    position: relative;
+    isolation: isolate;
     margin: 0;
     font-family: 'Playfair Display', Georgia, serif;
     font-size: clamp(32px, 9vw, 42px);
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.035em;
+  }
+
+  .hero-copy h1::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: -42% -22%;
+    background: radial-gradient(
+      ellipse 50% 50% at center,
+      rgba(255, 255, 255, 0.36) 0%,
+      rgba(255, 248, 237, 0.28) 24%,
+      rgba(255, 214, 177, 0.4) 36%,
+      rgba(255, 204, 160, 0.12) 72%,
+      rgba(255, 204, 160, 0) 100%
+    );
+    pointer-events: none;
   }
 
   .hero-copy h1 span {
@@ -444,7 +454,7 @@ body,
     margin-right: auto;
     margin-left: auto;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
   }
