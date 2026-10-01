@@ -111,23 +111,11 @@ function App() {
             <p className="contact-value">
               <span className="contact-email-desktop">stevetilesstudio@gmail.com</span>
               <span className="contact-email-mobile">
-                Email address
-                <br />
-                to be added
+                stevetilesstudio@gmail.com
               </span>
             </p>
           </div>
           <span className="contact-mobile-only">EMAIL</span>
-        </a>
-        <a className="contact-item contact-item-online" href="https://stevetilesstudio.com/" target="_blank" rel="noopener noreferrer">
-          <span className="contact-icon-wrap">
-            <img src="/assets/contact-icons/web-icon.png.png" alt="" aria-hidden="true" />
-          </span>
-          <div className="contact-copy">
-            <h2 className="contact-label">ONLINE</h2>
-            <p className="contact-value">stevetilesstudio.com</p>
-          </div>
-          <span className="contact-mobile-only">WEBSITE</span>
         </a>
       </section>
     </main>
