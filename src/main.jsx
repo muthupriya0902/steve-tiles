@@ -4,6 +4,7 @@ import './style.css';
 
 function App() {
   return (
+    <div className="page-shell">
     <main className="hero" aria-label="Tile collection">
       <img
         className="hero-logo"
@@ -130,6 +131,10 @@ function App() {
         </a>
       </section>
     </main>
+    <footer className="copyright-footer">
+      © 2026 Steve Tiles Studio. All rights reserved.
+    </footer>
+    </div>
   );
 }
 
