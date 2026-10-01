@@ -454,7 +454,7 @@ body,
     margin-right: auto;
     margin-left: auto;
     font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
   }
@@ -700,12 +700,13 @@ body,
 
   .contact-item-showroom .contact-label {
     margin-bottom: 3px;
-    font-size: 10px;
-    letter-spacing: 2px;
+    font-size: 11px;
+    letter-spacing: 1.8px;
   }
 
   .contact-item-showroom .contact-value {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 1.35;
   }
 
@@ -721,7 +722,7 @@ body,
     border: 1px solid rgba(23, 18, 17, 0.12);
     border-radius: 14px;
     font-family: Arial, sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.1em;
     text-decoration: none;
@@ -804,7 +805,7 @@ body,
   .contact-item-email .contact-value {
     width: auto;
     color: inherit;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.02em;
     line-height: 1.2;
