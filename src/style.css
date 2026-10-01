@@ -449,14 +449,15 @@ body,
 
   .hero-description {
     margin: 0;
-    width: 100%;
-    max-width: 300px;
+    width: calc(100% + 32px);
+    max-width: none;
     margin-right: auto;
     margin-left: auto;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
+    white-space: nowrap;
   }
 
   .hero-ctas {
